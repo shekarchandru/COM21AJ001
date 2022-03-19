@@ -1,0 +1,483 @@
+
+Stage 03
+=========================================================EOD=================================================
+Day 02 - 29 April 2021 9.00 - 7.00 [2.00 pm to 7.00 pm] 1:2
+Session : 14.00  to 16.30
+T Break : 16.30 to 16.50
+Session : 16.50 to 19.00 
+--------------------------------------------------------------------------------------------------------------
+GitHub/GitBash Installation/Configuration [Completed]
+Understand the Features of GitHUb[Completed]
+[Versioning/Merging/Branching][Completed]
+GitHub as  aFile Distribution System/SCM[Completed]
+Git Hub Commands[Completed]
+git init[Completed]
+git status[Completed]
+git log[Completed]
+git add[Completed]
+git commit[Completed]
+git branch[Completed]
+git checkout[Completed] 
+git merge[Completed]
+git push[Completed]
+git remote add[Completed]
+git clone[Completed]
+------------------------------------------------------------------------------------------------------------
+[Cloud Server ]             against 			[OnpremisesServer]-[Infra- High Machines]
+[Application]
+								Facility1	Facility2	Facility
+								teams		teams		teams
+								Utilization 365 / 24/7
+								60% 40%
+-----------------------------------------------------------
+[Master]Project [Fork]
+			TeamA			TeamB
+			clone the Project	clone the Project
+
+[Master]		Br1 Br3		Br2 Br
+			
+git config --global user.name "xyz"
+
+git config --global user.email "sss.gmail.com"
+--------------------------------------------------
+git config user.name
+git config user.email
+
+Step1 : Install GitBash [Completed]
+Step2 : Configure User Name & Mail [Completed]
+Step3 : Sign Up - GitHUb Server [mail ids should match] [Completed]
+Step4 : Sign In [Completed]
+Step5 : Generate RSA SSH Key in GitBash/  add RSA SSH Key to the Server wrt your login
+Step6 : Added SSH Key to the Server-GitHub wrt our login
+Step7 : We created a Repository-Remote
+Step8 : Working Repo is Identified
+[check by typing ls to see the file we created]
+Step9 : Initialize Our Folder as Git Repo
+cmd : git init <enter>
+Step10: check status
+cmd : git status
+Step11:
+add contents to the staging area:
+cmd : git add .
+Step12: check status
+Step 13 : commit the staged files to Local Repo
+cmd : git commit -m "Apr29Commit01"
+Step 14: push it to repo
+14a: we have to point our local repo to server's remote repo's master branch
+Cmd:git remote add origin 
+
+
+
+---------------------------------
+Step:Create Repository
+
+----------------
+Remote Repo
+Login add to the server
+
+$		[Team Cloning Commit Push]configured gitbash
+		RSA Key---
+Generate Key in your local system- GitBash
+$ ssh-keygen -t rsa -C "shekar@gmail.com"
+		:press enter
+		: key phrase 
+---------------------------------------------T BREAK :4.30 to 4.50--------------------
+Master   	Branch1
+MyData		MyData
+MyFile1		MyFile1
+		MyFile2
+---------------------
+RemorRepo
+---------------
+New Working Repo
+Cloned 
+Master
+Branch1 checkedout added features
+committed and pushed
+server
+Master	Branch1
+0 +1	0 +1 +2
+--->from Branch1--
+shifted to Master----merged contents of Branch1 with Master
+committed and pushed to server]
+Master	Branch1
+0 +1 +2	0 +1 +2
+--------------------------------------------------------------------
+
+RemoteRepo
+Master 	Branch 2.0
+1.0
+after merge+push
+2.0
+
+|[version1.0]
+
+New with system
+Clone RemoteRepo
+[master]----1.0--- merged with Branch2 --post this-pushed to remote repo
+[Branch1] ---- 2.0 --- push Branch1
+2.0++++++++++
+----------------------
+
+
+
+
+
+
+
+=========================================================EOD=================================================
+Day 01 - 28 April 2021 9.00 - 7.00 [2.00 pm to 7.00 pm]
+Session : 14.00  to 14.09
+T Break : 16.09 to 16.29
+Session : 16.29 to 19.00 [18.40 to 19.00 Reflection/Retrospection/doubts clarification]
+--------------------------------------------------------------------------------------------------------------
+Stage1 Expected to have been Completed
+[HTML5/CSS3.0/JavaScript]-Web 3.0 Semantic Web
+MySQL - RDBMS
+Java-Core
+JDBC
+----------------------------------------------------------------------------------------------------------
+Stage2 Expected to have been Completed
+Maven/JUNIT/Mockito
+Stage2
+SpringCore
+Web Application 
+Server Side Technologies [ Servlets + JSP]
+SpringMVC - Web Application[@Controller/@Service/@Model]
+
+-------------------------------------------------------------------------------------------------------------
+Stage 3 :
+PLAN:
+Overview of MVC - Architecture Level Design Pattern[as per the Request][Completed]
+
+-------
+Ecosystem- Need of S Engg[Completed]
+[Tools & Processes] [Completed]
+SCM - Git[Started]
+WebService[Not Completed]
+Restful WebService - Using SpringBoot[Not Completed]
+---------------------------------------------------------------------------------------------------------------
+
+Students Views/Responses:
+Santhosh:
+Annotations:Validation;Cater to the clients;
+Aditya: Coding Style; divide the tasks ; module interacts with each other; organizes the code
+Hanish: Application : Updation of the code takes places easily/organization systematic
+Shubhankar: 3 layers :Controller;View; Model
+Ritoban: MVC separate the dif aspects [business logic/presentation/service]
+Rishin: DispatcherServlet - FC
+Adarsh Mishra [ Model Controller View]
+Wrisov : MVC allows logical divisions
+Eshika : Dependency Injection /Inversion Of Control/
+SoumyaDeep: Client send request - FC -controller- DAO - Model View
+--------------------------------------------------------------------------------------------------
+[Embedded + Games & ANimation]
+
+Application[Interface+Business+Data]
+[DeskTop /Distributed / Web Application / Mobile Application]+[Components + WebServices]
++
+[Evolution of Programming Methodologies- Approaches]
+
+[Assembly Level Programming- ]
+HighLevel Languages - Cobol//Fortran/Pascal-Complex-NonStructured Way 
+Comment/Constructs&Loops - Debugging Maintenance
+
+Structured [Procedural + Strutural]- [Process Centric] C /Simula 67/
+Object Oriented Programming[Rep real system object] [Interoperability]
+
+[Components ]- Reusable component in Binary Form - 100% Interoperability not achieved
+
+[[WebService ] ]- 100 % interoperability
+PHP/Java/.net
+
+3-Tier/n-Tier Architecture]
+InterfaceLayer+Business+DataLayer
+
+C++ C java C#[Limited Infrastructure]- DeskTop
+Frameworks-------- [JEE][J2ME]			/ .Net [Mango]		/PHP / Cocoa-iOS  ANdroid[java]
+		   Java/Groovy		C#/VB/VC++	PHP	ObjectiveC
+IDE --- 	eclipse/netbeans/intelliJ   IDE-VS		XCode
+
+CoreJava		C#
+
+-----------------------------------------
+JSP/Servlets
+RMI/Javabeans
+EJB/Socket
++
+SpringMVC				Asp.NetMVC
+Hibernate
+--------------------------------------------
+Architectural STyle/Design Pattern
+Traditional 3 Tier Architectur vs MVC
+Model View Controller DAO
+-------------
+
+
+class Employee
+{
+
+	p s v main()
+}
+
+int main()
+{
+
+}
+class Student
+{
+
+}
+----------------------
+Myservlet extends HttpServlet
+{
+
+service(ServletRequest req,ServletResponse response)
+{
+ 
+JDBC------------DB
+100 TransactionObjects
+Search
+analyse
+drw [html]
+
+
+
+
+}
+
+}
+-
+MVC- Architectural Style - Approach
+Segregation Of Concerns
+Dependency Injection
+Inversion Of Control
+Aspect Oriented Programming
+					[ORM[Object Relational Mapping]-Hibernate]
+			Servlet			Models-Classes
+		BusinessLOgics					BusinessLogics
+-client---	FC===>	TControllers  -[ModelANdView]     ---> [Views 	]	-->   
+			FTController1
+			BControler2	 [Service]		JSP -------[Html5/css/bootstrap+angular]
+			Controler3
+			--
+			---		[DAO ]
+					|
+-----------------------------------------|---------------------------------------------------------									|
+					[DB]
+					MSQSQL/Oracle
+		   
+---------------------------------------------------------------------------------------------------
+Employee e = new Employee()
+
+
+Single Tier Arch - Desktop -[Process]
+2-Tier/3-Tier/nTier - Distributed []
+
+
+
+	NZone BL   DL  branches IL
+WZOne 			EZone
+	SZone
+----------------------
+[Server:Apache[WebApplication client+server]]-----www------[Browser]
+
+Mobile -[whatsapp client]-------------[[whatsapp server web] ]
+-------------------------------------------------------
+SpringMVC [SpringBoot]+ Asp.NetMVC
+-----------------------------------------------------------------------------------------------------------
+
+ArchitecturalStyle - MVC -Design Patterns
+
+[SpringMVC]
+
+MVCBasedAPplication
+[Distributed]
+[Web]
+[WebService]
+[Mail Server]
+[Messaging Server]
+-----------------------------------------------T BREAK 16.09 to 16.29--------------------------------------------------
+Architectural Styles:
+MVC - Architecture Level Design Pattern 
+Object Oriented Architecture Style
+Service Oriented Architecture  Style- Web Service
+ResourceOrientedArchitecture Style -[HTTP/TCP-IP] Web Application/RDBMS
+
+----------------------------
+Software Architecting / 
+
+
+---------------------------------
+
+Software Engineering Phases:
+[Inception-Analysis-Design-Construction-Testing-Deployment-Maintenance]
+Models
+Waterfall - [Agile Model] - Spiral Model V Model
+		[Sprints] 1-5 Retrospection
+-- adapatability
+
+-----------------------------------------------
+Architecting - subset of Design
+Artifacts-UML - [arch/class]
+----------------
+Arch - Civil
+     -  Construction
+	- SE
+
+---------------------------------------------------------------
+C4 c2 
+Kazzman
+Architecting is a Process of Rationalization behind the selection of Structural elements 
+that make up the system, their interaction and behaviours.
+
+Structural Elements:[security/scalability/extensibility/maintenability]
+[Architectural Style ]-
+Selection Technology -
+Data Structures[] 
+Data Access Techniques - ORM /DAO/RDO
+Search Algorithms
+Classes
+Interfaces
+AbstractClass
+---------------------------------			w/s[[Service-weather] server]
+Solution	Web Application				[
+|							-SOAP[XML/JSON]-HTTP-JSON
+[client]	|	 [client]	| [client]
+Flipkart[.Net]	Amazon[JEE]	Rediff.com[PHP]]Server------ [DB]
+|
+ISP - DNS
+|
+html - http
+|
+Browser		|	
+user		user
+=----------------------------------------------------------------
+
+
+payment Gateways - web services
+
+[webservice=payment gateway-paypal]server]--------------------------------------
+|									|
+|							|		|		|
+[Flipkart.com]-java------------------------------(java)icici.com /   (php) hdfc.com / sbi.com(.net)
+|------www
+ISP/DNS
+|		|		|
+	
+User1		User2		User3
+ICICI		HDFC		SBI
+
+----------------------------------
+DESIGN Pattern: Solution] singleton
+
+Architecting Level - Architecture Styles- Design patterns at the Architecture level
+Analysis&Design-[UML] - Phase
+Code/Construction- GOF Gang Of Four [23]+ 140
+[Creational/		Behavioural/	Structural]
+Factory/Singleton 	Observer	Prototype
+--------------------------------------------------Software Configuration Management----------------------------
+
+Factory Pattern
+Singleton - Objective
+Observer
+Command
+COR
+Strategy
+Command
+---------------------------------
+-WebSite
+ObjectPool 
+Server -[Pool] 1Million 
+----------------------------------------SOFTWARE CONFIGURATION MANAGEMENT----------------------------
+ECOSYSTEM----
+GIT-SCM
+---------------------------------------------------------------------------------------------------
+CI-CD
+
+Continuous Integration - Continuous Deployment
+[Maven]- ant- build tools
+-------------------------------------------------------------------------------------------------
+[DH-SYS_ANAL-BUS-ANAL-PM-SA-TL-DEV -ENGR] -----[client] 2 yrs 5 yrs
+------------------------------------------------------------
+-------------------------------------------------------------
+Develop-Test-Review-Integrate-Build-Test-Deploy/Release
+
+[Automate - ECOSYSTEM]
+
+[Issue Tracking SYstem - JIRA]-[Project Management System]
+|
+[Software Configuration Management]-GITHUb/ SVN / PVCS/VCS[]------[IntegrationTesting]---[Build-Maven-Jenkins-Release]---Server[URL]
+|
+IDE-[Editing/Debugging/Test/Build]
+|
+Unit Testing -JUnit /NUnit 
+|
+Reviewing - Code Reviews- Coding Culture[Essentials+NonEssentials]-Crucible
+
+Essentials			NonEssentials
+Classes/Abstract/Interfaces	Indentation/CodingBest Practices/NamingConvention
+Design Patterns
+DataStructure
+Searchtechniques
+|
+Knowledge Repository
+-----------------------------------------[SOFTWARE CONFIGURATION MANAGEMENT]-----------------------------
+[engineering]--X- [deployment-devops]--[]
+	[Dockers/Kubernetes]
+SCM-
+[1000 one ProjectX[Integration ]] [0 classes + 200 Classes]+200 classes 
+|
+REPOSITORY	|-updation	|- upataded
+|
+
+ProjectX	ProjectX	ProjectX
+USer1  		User2		User3........... ........
+200		200		200
+
+4Pm 		5pm		5.30
+
+Software C M - GITHUb
+
+------------------------------------------------------
+GitHubServer-RemoteRepository Dif Machine- ProjectX 10 classes
+|
+
+--------------------------------|
+GitBash - GITGUI - Clients
+Engineers Machine
+User1			Local Repository[Files]
+Clone					---- Staging Area[]
+Folder c:\Projects 	Working repository
+\ProjectX
+
+c:\Projects Git init
+
+c:\Projects Git Clone http:\\}---- IDE
+|
+|
+|
+git status  
+git add 
+git commit -m ""commit on 28 6 pm" 
+git push
+------------------------------
+Branching
+Merging
+Versioning
+
+---------
+Google 
+
+CR
+gmail ids google drive
+------------------------------
+Chandra Shekar R
+mail id : 	t-chandrashekar3@cognizant.com
+		shekarchandru.5@gmailcom
+9972450732
+-----------------------------------------6.40 to 7.00 -------------Explore - Doubt Clarifications------------------------
+	
+
+
+===============================================EOD=============================================================
